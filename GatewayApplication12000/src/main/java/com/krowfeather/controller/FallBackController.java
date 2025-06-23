@@ -9,9 +9,4 @@ public class FallBackController {
     public String fallback(){
         return "CircuitBreaker熔断";
     }
-
-    @RequestMapping("/fallbackRateLimiter")
-    public String fallbackRateLimiter(){
-        return "RateLimiter限流";
-    }
 }
